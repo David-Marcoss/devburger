@@ -1,26 +1,61 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+  <div>
+    
+    <NavBar :logo="logo_src" :alt="app_name"/>
+    
+    <div>
+      <router-view/>
+    </div>
+
+    <FooterVue/>
+  </div>
+ 
+  
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import FooterVue from './components/FooterVue.vue'
+import NavBar from "./components/NavBar.vue"
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
+  components:{
+    NavBar,
+    FooterVue
+  },
+
+  data(){
+    return {
+      logo_src: "/img/logo.png",
+      app_name: "DevBurger"
+    }
   }
 }
+
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  box-sizing: border-box;
 }
+
+.main-container{
+  margin: 50px;
+  overflow-y: auto; /* Permite a rolagem vertical */
+  height: calc(100% - 100px); /* Altura dinâmica para preencher a tela entre o menu e o footer */
+}
+
+h1{
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 40px;
+  color: #222
+
+}
+
 </style>

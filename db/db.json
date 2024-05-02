@@ -1,0 +1,191 @@
+{
+  "ingredientes": {
+    "paes": [
+      {
+        "id": 1,
+        "tipo": "Italiano Branco"
+      },
+      {
+        "id": 2,
+        "tipo": "3 Queijos"
+      },
+      {
+        "id": 3,
+        "tipo": "Parmesão e Orégano"
+      },
+      {
+        "id": 4,
+        "tipo": "Integral"
+      },
+      {
+        "id": 5,
+        "tipo": "Pão Francês"
+      },
+      {
+        "id": 6,
+        "tipo": "Pão Mexicano"
+      }
+    ],
+    "carnes": [
+      {
+        "id": 1,
+        "tipo": "Maminha"
+      },
+      {
+        "id": 2,
+        "tipo": "Alcatra"
+      },
+      {
+        "id": 3,
+        "tipo": "Picanha"
+      },
+      {
+        "id": 4,
+        "tipo": "Veggie burger"
+      },
+      {
+        "id": 5,
+        "tipo": "Filé de Frango"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 2,
+        "tipo": "Cheddar"
+      },
+      {
+        "id": 3,
+        "tipo": "Salame"
+      },
+      {
+        "id": 4,
+        "tipo": "Tomate"
+      },
+      {
+        "id": 4,
+        "tipo": "Cebola roxa"
+      },
+      {
+        "id": 4,
+        "tipo": "Pepino"
+      },
+      {
+        "id": 5,
+        "tipo": "Queijo"
+      },
+      {
+        "id": 6,
+        "tipo": "Requeijão"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": "1",
+      "tipo": "Solicitado"
+    },
+    {
+      "id": "2",
+      "tipo": "Em produção"
+    },
+    {
+      "id": "3",
+      "tipo": "Finalizado"
+    }
+  ],
+  "burgers": [
+    {
+      "id": "6cc4",
+      "client": "david marcos",
+      "bread": "Italiano Branco",
+      "meat": "Maminha",
+      "optionais": [],
+      "status": "Finalizado"
+    },
+    {
+      "id": "573e",
+      "client": "david marcos h",
+      "bread": "3 Queijos",
+      "meat": "Alcatra",
+      "optionais": [
+        "Tomate",
+        "Salame",
+        "Bacon",
+        "Cebola roxa"
+      ],
+      "status": "Finalizado"
+    },
+    {
+      "id": "41b6",
+      "client": "Carlos",
+      "bread": "Parmesão e Orégano",
+      "meat": "Maminha",
+      "optionais": [],
+      "status": "Em produção"
+    },
+    {
+      "id": "9455",
+      "client": "Maria lucia",
+      "bread": "3 Queijos",
+      "meat": "Maminha",
+      "optionais": [],
+      "status": "Criado"
+    },
+    {
+      "id": "c7ad",
+      "client": "Geminiano",
+      "bread": "Italiano Branco",
+      "meat": "Picanha",
+      "optionais": [],
+      "status": "Criado"
+    },
+    {
+      "id": "f4c5",
+      "client": "Jorje",
+      "bread": "Integral",
+      "meat": "Filé de Frango",
+      "optionais": [],
+      "status": "Em produção"
+    },
+    {
+      "id": "eef4",
+      "client": "claudia",
+      "bread": "Pão Mexicano",
+      "meat": "Alcatra",
+      "optionais": [],
+      "status": "Criado"
+    },
+    {
+      "id": "e16c",
+      "client": "Davi",
+      "bread": "Pão Francês",
+      "meat": "Picanha",
+      "optionais": [],
+      "status": "Criado"
+    },
+    {
+      "id": "a6f1",
+      "client": "maria",
+      "bread": "Pão Francês",
+      "meat": "Alcatra",
+      "optionais": [],
+      "status": "Criado"
+    },
+    {
+      "id": "c697",
+      "client": "Joao",
+      "bread": "Parmesão e Orégano",
+      "meat": "Picanha",
+      "optionais": [
+        "Pepino",
+        "Bacon",
+        "Queijo"
+      ],
+      "status": "Criado"
+    }
+  ]
+}
